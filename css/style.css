@@ -1,0 +1,104 @@
+*{margin:0px 0px;}
+img{
+width:100%;
+
+}
+@media screen and (max-width: 560px) {
+.slide {
+  font-size: 18px;
+   }
+}
+/*@media screen and (min-width: 998px) {
+.footer {
+ margin-top: 8em; 
+height:37em;
+   }
+footer {padding-top: 0em; }   
+}*/
+.footer {
+height:27%;
+background-color: black;
+color: white;
+font-size: 15px;
+ margin-top: 40em; 
+
+
+}
+/*@media only screen and (max-width:1024px) {margin: 0px;}*/
+
+footer{padding-top: 10em; 
+margin-left: 10%;
+}
+.about-us {
+
+
+}
+#about-ushead {
+color: brown;
+font-weight: bold;
+
+}
+#Our-Visionhead {
+color: brown;
+font-weight: bold;
+
+}
+#our-Missionhead {
+color: brown;
+font-weight: bold;
+}
+#help {
+color: white;
+margin-bottom: 10px;
+margin-left: 86%;
+background-color: #ff000061;
+/*width: 120px;*/
+
+}
+.navbar-inverse {
+/*background-color: #10101000;*/
+
+}
+hr {
+color: black;
+margin-right: 10em;
+margin-top: 10px;
+border-top: 2px solid brown;
+}
+
+.location {
+text-align: left;
+padding-left: 4em;
+
+}
+div > ul {
+list-style-type: square;
+
+}
+.type h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .09em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(40, end), /*speed*/
+    blink-caret .75s step-end infinite;
+    color: brown;
+    text-align: center;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+
+
